@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<suite-files>
+ <suite-file path="LoginTest.xml"/>
+ <suite-file path="SearchHotel.xml"/>
+ <suite-file path="BookHotel.xml"/>
+ <suite-file path="CancelBooking.xml"/>
+ <suite-file path="BookHotel2.xml"/>
+ </suite-files>
+</suite> <!-- Suite -->

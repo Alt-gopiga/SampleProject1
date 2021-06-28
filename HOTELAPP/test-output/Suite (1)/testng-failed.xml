@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite (1)]">
+  <test name="Search Hotel(failed)">
+    <classes>
+      <class name="com.hotelApp.testCases.Login_SearchHotel">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setValue"/>
+          <include name="SearchHotel" invocation-numbers="0"/>
+          <include name="launchBrowser"/>
+          <include name="endResult"/>
+          <include name="ObjectProperties"/>
+        </methods>
+      </class> <!-- com.hotelApp.testCases.Login_SearchHotel -->
+    </classes>
+  </test> <!-- Search Hotel(failed) -->
+</suite> <!-- Failed suite [Suite (1)] -->

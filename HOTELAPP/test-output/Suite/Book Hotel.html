@@ -1,0 +1,113 @@
+<html>
+<head>
+<title>TestNG:  Book Hotel</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Book Hotel</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat May 08 15:02:41 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>7 seconds (7810 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.hotelApp.testCases.Login_BookHotel.SearchHotel()'><b>SearchHotel</b><br>Test class: com.hotelApp.testCases.Login_BookHotel<br>Parameters: Caretest, Test@123, User, Demo, Chennai, 4444555566661111, 1234<br/>
+<a href="#Output-1479140596" onClick='toggleBox("Output-1479140596", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1479140596" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1479140596">
+Entered UserName Successfully<br/>
+Password Entered Successfully<br/>
+Login Button Is Clicked Successfully<br/>
+The Element With //select[@id='location'] Is Selected Index Values is 2<br/>
+The Element With //select[@id='hotels'] Is Selected Index Values is 1<br/>
+The Element With //select[@id='room_type'] Is Selected Index Values is 3<br/>
+The Element With //select[@id='room_nos'] Is Selected Index Values is 5<br/>
+The data: 10/05/2021 entered successfully in field ://input[@id='datepick_in']<br/>
+The data: 15/05/2021 entered successfully in field ://input[@id='datepick_out']<br/>
+The Element With //select[@id='adult_room'] Is Selected Index Values is 2<br/>
+The Element With //select[@id='child_room'] Is Selected Index Values is 2<br/>
+Search Option Is Clicked Successfully<br/>
+Hotel Is Clicked Successfully<br/>
+Continue Is Clicked Successfully<br/>
+The data: User entered successfully in field ://input[@id='first_name']<br/>
+The data: Demo entered successfully in field ://input[@id='last_name']<br/>
+The data: Chennai entered successfully in field ://textarea[@id='address']<br/>
+The data: 4444555566661111 entered successfully in field ://input[@id='cc_num']<br/>
+The Element With //select[@id='cc_type'] Is Selected Index Values is 2<br/>
+The Element With //select[@id='cc_exp_month'] Is Selected Index Values is 2<br/>
+The Element With //select[@id='cc_exp_year'] Is Selected Index Values is 12<br/>
+The data: 1234 entered successfully in field ://input[@id='cc_cvv']<br/>
+BookNow Option Is Clicked Successfully<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>com.hotelApp.testCases.Login_BookHotel@6d4b1c02</td></tr>
+</table><p>
+</body>
+</html>
